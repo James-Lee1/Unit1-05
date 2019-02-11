@@ -38,8 +38,9 @@ public class DiceRoll {
         // One more trial that you took is added to the total
         counter += 1;
 
-        System.out.print("Sike! THAT'S THE WRONG NUMBER");
-
+        System.out.print("That number is incorrect! ");
+        
+        // Asks the user again  
         System.out.print(" What is the secret number? (Range of 1 - 6) : ");
         userGuess = userInput.nextInt();
 
@@ -47,8 +48,7 @@ public class DiceRoll {
 
     // One more trial that you took is added to the total
     counter += 1;
-    System.out.print("Congratulations! That is the right number!");
-    System.out.print(" And it only took " + counter + " tries. ");
+    System.out.print("Congratulations! That is the right number! And it only took " + counter + " tries.");
 
     }
 }
